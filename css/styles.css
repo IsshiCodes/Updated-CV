@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul  li{
+    font-size: large;
+    line-height: 2.5rem;
+}
+hr{
+    margin: 5px;
+}
+
+i{
+    margin-left: 10px;
+}
+/* Classes */
+
+.container{
+    padding: 2% 4%;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-img{
+    padding-right: 20px;
+}
+.navigationBarList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+}
+.navigationBarList li{
+    display: inline;
+    width: 100px;
+    margin-right: 20px;
+}
+.intro{
+    padding: 2.5%;
+    text-align: center;
+}
+.education, .work-experience, .skills{
+    padding: 0 25px 0 25px;
+}
+.education-list{
+    margin: 0;
+}
+.profilePic{
+    border-radius: 25%;
+    height:150px;
+}
+.title{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 1rem;
+}
+
+footer{
+    text-align: center;
+}
+.footer-icon{
+    padding: 15px;
+}
+.fa-brands{
+    margin-right: 12px;
+    color: gray;
+}
+.fa-brands:hover{
+    color: lightblue;
+}
+a:hover{
+    color: lightblue;
+}
+input, textarea{
+    display: block;
+    padding: 1rem;
+}
+.form-container{
+    padding: 1% 4%;
+}
+.form-group{
+    padding: 5px;
+    margin-top: 5px;
+}
+.form-title{
+    text-align: center;
+    font-size: 2.5rem;
+}
+button{
+    width: 100%;
+    margin-top: 5px;
+}
+.btn:hover{
+    background-color: lightblue;
+    color: black;
+}
+.card{
+    border-style: none;
+    margin: 5px 5px 5px 5px;
+}
